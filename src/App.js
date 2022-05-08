@@ -42,15 +42,8 @@ function App() {
 
   //building of the array data with all the albums and photos--->LocalStorage
   useEffect(()=>{
-    var check;
     if( loading && dataalbums && dataphotos){
-      //Avalia se foi refresh ou apenas alteracao da data
-      if(data){
-        console.log("Estive aqui!")
-        var check=data
-      }else{
-        check=localStorage.getItem("data")
-      }
+      var check=localStorage.getItem("data")
       
       //caso nao tenha data posterior
       if(check){
