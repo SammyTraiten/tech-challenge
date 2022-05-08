@@ -4,7 +4,7 @@ import FavoritesList from "./components/Favorites/FavoritesList"
 
 function App() {
 
-  //Favorites and Text states
+  //Favorites and Text states, Searchbar
   const [idN,setidN]=useState(-1);
   const [searchTerm, setSearchTerm] = useState('')
   const [id,setIdFav]=useState(-1);
