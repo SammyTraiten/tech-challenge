@@ -1,13 +1,50 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.diva{
+    background-color: #f0f0f0;
+    width: auto;
+    border: 1px solid #000000;
+    padding: 0px;
+    margin:0
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.divb{
+    background-color: #fffdfd;
+    width: auto;
+    border: 1px solid #000000;
+    padding: 0px;
+    margin: 30px 
+}
+
+.divc{
+    background-color: #fffdfd;
+    width: auto;
+    border: 1px solid #000000;
+    padding: 0px;
+    margin: 30px ;
+}
+
+.titlefav{
+    margin-bottom: -20px;
+    margin-left:30px;
+}
+
+.titleAlbums{
+    margin-bottom: 2px;
+    margin-left:30px;
+}
+
+.inp{
+    margin-bottom: -20px;
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.inpsearch{
+    margin-top:1px;
+    margin-left:30px;
+    margin-bottom: 1px;
+    width: 40%;
+    height: 40px;
+    font-size: 20px;
 }

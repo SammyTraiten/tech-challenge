@@ -1,0 +1,10 @@
+.list {
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow: auto;
+  }
+  
